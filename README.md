@@ -1,6 +1,6 @@
-What is UART
+# What is UART
 
-======
+=========================================================================
 
 Notorious Universal Aschenous Reciver Transmitter is as you might know a simple digital communication protocol. The mysterious name U*A*R*T* contains most of the key terms first letters to understand its essence.  
 
@@ -16,32 +16,32 @@ It is important to mention that there is an optimizations of the signal capture 
 
 ——
 
-What code contains
+# What code contains
 
-======
+=========================================================================
 
-This repository is a UART project implemented with hardware description language `**`verilog`**` which means that if you have an fpga board available you can compile my code with the rigth software for your specific chip. I can confidently say that this module works as I have tried with my own fpga board and not a single problem have occurred. To save you from trouble I also added a `**`parametric fifo`**` as there is often need of some sort of memory to buffer the incoming data. Another reason why you might want to use my module is that it is easy to configure baud rate with just changing the `_`parameter baud rate`_` in top module. I did not seemed necessary to include parity bit check does it is absent. 
+This repository is a UART project implemented with hardware description language **verilog** which means that if you have an fpga board available you can compile my code with the rigth software for your specific chip. I can confidently say that this module works as I have tried with my own fpga board and not a single problem have occurred. To save you from trouble I also added a **parametric fifo** as there is often need of some sort of memory to buffer the incoming data. Another reason why you might want to use my module is that it is easy to configure baud rate with just changing the _parameter baud rate_ in top module. I did not seemed necessary to include parity bit check does it is absent. 
 
 About This Repository
 
-======
+=========================================================================
 
-This repository offers:
+# This repository offers:
 
-+Tested and verified with actual hardware Uart module
++ +Tested and verified with actual hardware Uart module
 
-+Includes parametric fifo as a memory buffer
++ +Includes parametric fifo as a memory buffer
 
-+Parametric Baud Rate to easily configure desired rate
++ +Parametric Baud Rate to easily configure desired rate
 
-+Written with hardware description language Verilog which is suitable for every fpga chips
++ +Written with hardware description language Verilog which is suitable for every fpga chips
 
 This module does not contain:
 
--Even odd parity check bit configuration
+- -Even odd parity check bit configuration
 
--Sampling process for reliable transmission
+- -Sampling process for reliable transmission 
 
-[logo]: https://github.com/EnesErcin/Uart_hardware/tree/main/Rapor/baudrate.jpg "baudrate"
+[logo]: https://github.com/EnesErcin/Uart_hardware/blob/main/Document/baudrate.jpg "baudrate"
 
-[uartpins]: https://github.com/EnesErcin/Uart_hardware/tree/main/Rapor/uartpins.png "uartpins"
+[uartpins]: https://github.com/EnesErcin/Uart_hardware/blob/main/Document/uartpins.png "uartpins"
