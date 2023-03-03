@@ -42,6 +42,6 @@ This module does not contain:
 
 - -Sampling process for reliable transmission 
 
-[logo]: https://github.com/EnesErcin/Uart_hardware/blob/main/Document/baudrate.png "baudrate"
+[baudrate]: https://github.com/EnesErcin/Uart_hardware/blob/main/Document/baudrate.png "baudrate"
 
 [uartpins]: https://github.com/EnesErcin/Uart_hardware/blob/main/Document/uartpins.png "uartpins"
